@@ -13,7 +13,7 @@ bitcoin = bitcoin_data.toPandas()
 
 # plt.figure(figsize = (25, 11))
 sns.heatmap(bitcoin.isna().values[::10], cmap = ["#64b5f6", "#e57373"], xticklabels=bitcoin.columns)
-plt.title("Bitcoin data missing values", size=20)
+plt.title("Bitcoin data missing vas", size=20)
 plt.show()
 
 """
